@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://SYSDBA:13177364mloko@cluster0-0mah5.mongodb.net/week10?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://SYSDBA:masterkey@cluster0-0mah5.mongodb.net/week10?retryWrites=true&w=majority',{
 useNewUrlParser: true,
 useUnifiedTopology: true
 });
